@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//Puppy Crawl//DTD Checkstyle 8.16.1//EN" "https://puppycrawl.com/dtds/checkstyle_8_16_1.dtd">
+<configuration version="8.16.1">
+  <module name="Checker">
+    <property name="severity" value="error"/>
+    <property name="fileExtensions" value="java"/>
+  </module>
+  <module name="TreeWalker">
+    <property name="severity" value="error"/>
+    <property name="fileExtensions" value="java"/>
+  </module>
+  <module name="AvoidStarImports">
+    <property name="severity" value="error"/>
+  </module>
+  <module name="ModifierOrder">
+    <property name="severity" value="error"/>
+  </module>
+  <module name="TypeName">
+    <property name="severity" value="error"/>
+  </module>
+
+  <module name="EmptyBlock">
+    <property name="severity" value="error"/>
+  </module>
+  <module name="MissingSwitchDefault">
+    <property name="severity" value="error"/>
+  </module>
+  <module name="NestedIfDepth">
+    <property name="severity" value="error"/>
+    <property name="maxDepth" value="2"/>
+  </module>
+  <module name="SuppressWarnings">
+    <property name="severity" value="error"/>
+  </module>
+
+  </configuration>
